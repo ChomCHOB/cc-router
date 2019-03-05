@@ -44,7 +44,7 @@ function _addRoute (router, _route = { method: '', path: '' }) {
     method: _method,
     path: _path,
     configs: _route.configs,
-    log_data: _route.log_data,
+    logData: _route.logData,
   }
 
   if (Object.prototype.hasOwnProperty.call(_route, 'x')) return false

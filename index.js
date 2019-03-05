@@ -43,7 +43,8 @@ function _addRoute (router, _route = { method: '', path: '' }) {
   const routeConfig = {
     method: _method,
     path: _path,
-    configs: _route.configs
+    configs: _route.configs,
+    logData: _route.logData,
   }
 
   if (Object.prototype.hasOwnProperty.call(_route, 'x')) return false
